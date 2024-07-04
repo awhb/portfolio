@@ -1,6 +1,6 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
-import { TextGenerateEffect } from './ui/text-generate-effect'
+import { TextGenerateEffect } from './ui/TextGenerateEffects'
 import MagicButton from './ui/MagicButton'
 import { FaGithub } from "react-icons/fa";
 
@@ -25,19 +25,21 @@ const Hero = () => {
 
                 <TextGenerateEffect 
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                words="Imagine. Ideate. Iterate."
+                words="ImaGENe our future."
                 />
 
-                <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"> 
-                    Hi! I am Hang Bin, Computing Connoisseur, Art Afficionado, and Neural Network Nutjob. 
+                <p className="text-center md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
+                    Hi! I am Hang Bin. I seek the crossroads between human imagination and Generative AI 
+                    to improve our everyday lived experiences. 
                 </p>
 
+                <a href="https://github.com/awhb">
                 <MagicButton 
                 title="Show my work"
                 icon={<FaGithub />}
                 position="right"
-                link="https://github.com/awhb"
                 />
+                </a>
             </div>
         </div>
     </div>
