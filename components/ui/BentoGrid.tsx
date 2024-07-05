@@ -53,7 +53,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftWebLists = ["ReactJS", "Tailwind"];
-  const rightWebLists = ["TypeScript", "Go", "Rails", "PostgreSQL"];
+  const rightWebLists = ["Go", "Rails", "PostgreSQL"];
   const leftMLLists = ["Numpy", "Pandas", "Scikit-learn"];
   const rightMLLists = ["PyTorch", "HuggingFace", "Langchain"];
 
@@ -149,7 +149,6 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-6">
