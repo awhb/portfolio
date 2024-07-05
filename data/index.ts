@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title: "Passionate about innovating with GenAI",
-    description: "Embracing the new age",
+    description: "Welcoming the new age",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full dark:brightness-[70%]",
     titleClassName: "justify-end",
@@ -28,9 +28,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My web development tech stack",
+    title: "My tech stack for Web Development:",
     description: "Seeking efficiency and interactivity",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:min-h-[30vh]",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -38,9 +38,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "My machine-learning tech stack",
-    description: "Welcoming revolutionary techonologies",
-    className: "lg:col-span-3 md:col-span-3 md:row-span-2",
+    title: "In AI/Machine Learning:",
+    description: "Embracing revolutionary techonologies",
+    className: "lg:col-span-3 md:col-span-3 md:row-span-2 lg:min-h-[30vh]",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
