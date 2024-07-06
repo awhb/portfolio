@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffects'
 import MagicButton from './ui/MagicButton'
-import { FaGithub } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -29,16 +29,15 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
-                    Hi! I am Hang Bin. I seek the crossroads between human imagination and Generative AI 
+                    Hi! I&apos;m Hang Bin. I seek the crossroads between human imagination and Generative AI 
                     to improve our everyday lived experiences. 
                 </p>
-
-                <a href="https://github.com/awhb">
-                <MagicButton 
-                title="Show my work"
-                icon={<FaGithub />}
-                position="right"
-                />
+                <a href="#about">
+                    <MagicButton 
+                    title="Show my work"
+                    icon={<FaLocationArrow />}
+                    position="right"
+                    />
                 </a>
             </div>
         </div>
