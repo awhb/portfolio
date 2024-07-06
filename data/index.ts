@@ -1,7 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Experience", link: "#experience" },
+//   { name: "Testimonials", link: "#testimonials" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Connecting to the world from Singapore",
+    title: "A Singaporean student seeking global impact",
     description: "",
     className: "lg:col-span-2 md:col-span-6 md:row-span-4",
     imgClassName: "",
@@ -78,15 +79,15 @@ export const projects = [
   {
     id: 3,
     title: "NetworkBook",
-    description: "An tool which helps computing professionals to manage networking contact information.",
+    description: "A tool which helps computing professionals to manage networking contact information.",
     img: "/p3.svg",
     iconLists: ["/java.svg", "/gradle.svg"],
     link: "https://github.com/awhb/tp",
   },
   {
     id: 4,
-    title: "Art classifier",
-    description: "Created a HuggingFace space that classifies art mediums using the fastai library.",
+    title: "Art Classifier",
+    description: "Hosted a Gradio app on Hugging Face that classifies art mediums using the fastai library.",
     img: "/p4.svg",
     iconLists: ["/huggingface.svg", "/gradio.svg"],
     link: "https://github.com/awhb/art-classifier",
@@ -105,25 +106,7 @@ export const testimonials = [
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+  }
 ];
 
 export const companies = [
@@ -144,45 +127,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineering Intern",
+    desc: "Prototyped free online tool to generate interactive and downloadable XmR charts using HTML, TailwindCSS and D3.js.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "AI Internship Programme Intern",
+    desc: "Designed solution for source attribution in Retrieval-Augmented Generation (RAG) system of LLM using semantic comparison.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
+    thumbnail: "/exp2.svg",
+  }
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/awhb",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/hang-bin-aw/",
   },
 ];
