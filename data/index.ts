@@ -61,35 +61,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "GitGOod Forum",
+    description: "A full-stack forum web application.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/go.svg", "/postgres.svg"],
+    link: "https://github.com/awhb/gitgood-forum",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Parallel uNivUSes",
+    description: "A choose-your-own adventure game to live iterations of first-year NUS student life.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    iconLists: ["/c-sharp.svg", "/unity.svg"],
+    link: "https://github.com/awhb/parallel-univuses",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "NetworkBook",
+    description: "An tool which helps computing professionals to manage networking contact information.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/java.svg", "/gradle.svg"],
+    link: "https://github.com/awhb/tp",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Art classifier",
+    description: "Created a HuggingFace space that classifies art mediums using the fastai library.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    iconLists: ["/huggingface.svg", "/gradio.svg"],
+    link: "https://github.com/awhb/art-classifier",
   },
 ];
 
@@ -138,25 +138,7 @@ export const companies = [
     name: "appwrite",
     img: "/app.svg",
     nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  }
 ];
 
 export const workExperience = [
