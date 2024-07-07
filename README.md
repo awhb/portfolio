@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hang Bin's Portfolio Website
+
+A personal portfolio website built with Next.js and React (along with TailwindCSS, Next.js and Framer Motion), deployed on Vercel.
+
+## Features 
+
+- Responsive design
+- Interactive Animations
+- Server side rendering
+- Fast page loads
+- Easy deployment
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (v14+)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository: 
+
+```sh
+git clone https://github.com/awhb/portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Development 
 
-## Learn More
+Run the development server: 
+```sh
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000) or your chosen port for deployment in your browser. 
 
-To learn more about Next.js, take a look at the following resources:
+### Building for Production
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Deployment
 
-## Deploy on Vercel
+This project is configured for easy deployment on Vercel. Push to your GitHub repository and connect it to Vercel for automatic deployments.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used
+
+- Next.js
+- React
+- CSS Modules
+- Vercel
+
+
+## Project Structure
+```sh
+.
+├── README.md
+├── app
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── Experience.tsx
+│   ├── Footer.tsx
+│   ├── Grid.tsx
+│   ├── Hero.tsx
+│   ├── RecentProjects.tsx
+│   ├── Testimonials.tsx
+│   ├── theme-provider.tsx
+│   └── ui
+├── data
+│   ├── confetti.json
+│   ├── globe.json
+│   └── index.ts
+├── next-env.d.ts
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   ├── app.svg
+│   ├── appName.svg
+│   ├── arrow.svg
+│   ├── b1.svg
+│   ├── b1_new.svg
+│   ├── b4.svg
+│   ├── b5.svg
+│   ├── bg.png
+│   ├── c-sharp.svg
+│   ├── c.svg
+│   ├── cloud.svg
+│   ├── cloudName.svg
+│   ├── confetti.gif
+│   ├── dock.svg
+│   ├── dockerName.svg
+│   ├── exp1.svg
+│   ├── exp2.svg
+│   ├── exp3.svg
+│   ├── exp4.svg
+│   ├── fm.svg
+│   ├── footer-grid.svg
+│   ├── git.svg
+│   ├── go.svg
+│   ├── gradio.svg
+│   ├── gradle.svg
+│   ├── grid.svg
+│   ├── gsap.svg
+│   ├── host.svg
+│   ├── hostName.svg
+│   ├── huggingface.svg
+│   ├── insta.svg
+│   ├── java.svg
+│   ├── jsm-logo.png
+│   ├── link.svg
+│   ├── next.svg
+│   ├── p1.svg
+│   ├── p2.svg
+│   ├── p3.svg
+│   ├── p4.svg
+│   ├── postgres.svg
+│   ├── profile.svg
+│   ├── re.svg
+│   ├── s.svg
+│   ├── stream.svg
+│   ├── streamName.svg
+│   ├── tail.svg
+│   ├── three.svg
+│   ├── ts.svg
+│   ├── twit.svg
+│   ├── unity.svg
+│   └── wha.svg
+├── tailwind.config.ts
+├── tsconfig.json
+└── utils
+    └── cn.ts
+```
+
+
+## License 
+
+[MIT License](LICENSE)
+
+
+## Contact
+
+Aw Hang Bin - awhangbin@gmail.com
+
+Project Link: [https://portfolio-awhbs-projects.vercel.app/](https://portfolio-awhbs-projects.vercel.app/)
