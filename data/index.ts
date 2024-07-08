@@ -62,35 +62,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Art Style Classifier",
+    description: "A Gradio application deployed on Hugging Face that classifies by fine art styles using the fastai library.",
+    img: "/p1.svg",
+    iconLists: ["/huggingface.svg", "/gradio.svg"],
+    link: "https://github.com/awhb/art-classifier",
+  },
+  {
+    id: 2,
     title: "GitGOod Forum",
     description: "A full-stack forum web application.",
-    img: "/p1.svg",
+    img: "/p2.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/go.svg", "/postgres.svg"],
     link: "https://github.com/awhb/gitgood-forum",
   },
   {
-    id: 2,
+    id: 3,
     title: "Parallel uNivUSes",
     description: "A choose-your-own adventure game to live iterations of first-year NUS student life.",
-    img: "/p2.svg",
+    img: "/p3.svg",
     iconLists: ["/c-sharp.svg", "/unity.svg"],
     link: "https://github.com/awhb/parallel-univuses",
   },
   {
-    id: 3,
+    id: 4,
     title: "NetworkBook",
     description: "A tool which helps computing professionals to manage networking contact information.",
-    img: "/p3.svg",
+    img: "/p4.svg",
     iconLists: ["/java.svg", "/gradle.svg"],
     link: "https://github.com/awhb/tp",
-  },
-  {
-    id: 4,
-    title: "Art Classifier",
-    description: "Hosted a Gradio app on Hugging Face that classifies art mediums using the fastai library.",
-    img: "/p4.svg",
-    iconLists: ["/huggingface.svg", "/gradio.svg"],
-    link: "https://github.com/awhb/art-classifier",
   },
 ];
 
@@ -127,14 +127,14 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineering Intern",
+    title: "Postcognito Pte. Ltd, Software Engineering Intern",
     desc: "Prototyped free online tool to generate interactive and downloadable XmR charts using HTML, TailwindCSS and D3.js.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "AI Internship Programme Intern",
+    title: "AI Singapore, AIIP Intern",
     desc: "Designed solution for source attribution in Retrieval-Augmented Generation (RAG) system of LLM using semantic comparison.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
