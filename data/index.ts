@@ -71,7 +71,7 @@ export const projects = [
   {
     id: 2,
     title: "GitGOod Forum",
-    description: "A full-stack forum web application.",
+    description: "A full-stack forum web application supporting JWT authentication and CRUD operations.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/go.svg", "/postgres.svg"],
     link: "https://github.com/awhb/gitgood-forum",
@@ -96,16 +96,16 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "I cannot recommend Hang Bin highly enough. He would make a good addition to any team – he learns fast, executes proactively, thinks critically about his work and asks incisive questions.",
+    name: "Cedric Chin",
+    title: "Director, Postcognito Pte. Ltd.",
+    img: "/profile.svg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "Hangbin is a logical and quick-thinking developer. As his lead, I never have to watch over his shoulder and can trust him to complete his tasks according to requirements. His research into solutions for the problem statement has yielded proposals that are workable and practical.",
+    name: "Chris Ho",
+    title: "AIIP Team Lead, AI Singapore",
+    img: "/profile.svg",
   }
 ];
 
