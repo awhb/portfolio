@@ -73,7 +73,7 @@ export const projects = [
     title: "GitGOod Forum",
     description: "A full-stack forum web application.",
     img: "/p2.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/go.svg", "/postgres.svg"],
+    iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/go.svg", "/postgres.svg"],
     link: "https://github.com/awhb/gitgood-forum",
   },
   {
