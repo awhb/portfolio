@@ -15,7 +15,7 @@ export default function Home() {
             <Hero />
             <Grid />
             <Experience />
-            {/* <Testimonials /> */}
+            <Testimonials />
             <RecentProjects />
             <Footer />
         </div>
