@@ -2,12 +2,12 @@
 
 import React from "react";
 
-import { companies, testimonials } from "@/data";
+import { companies, recommendations } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
-const Testimonials = () => {
+const Recommendations = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="recommendations" className="py-20">
       <h1 className="heading">
         Kind
         <span className="text-purple"> recommendations</span>
@@ -19,7 +19,7 @@ const Testimonials = () => {
           className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
         >
           <InfiniteMovingCards
-            items={testimonials}
+            items={recommendations}
             direction="right"
             speed="slow"
           />
@@ -50,4 +50,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Recommendations;

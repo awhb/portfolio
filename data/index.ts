@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Experience", link: "#experience" },
-//   { name: "Testimonials", link: "#testimonials" },
+  { name: "Recommendations", link: "#recommendations" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
@@ -94,7 +94,7 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const recommendations = [
   {
     quote: "I cannot recommend Hang Bin highly enough. He would make a good addition to any team – he learns fast, executes proactively, thinks critically about his work and asks incisive questions.",
     name: "Cedric Chin",
