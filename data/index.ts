@@ -88,7 +88,7 @@ export const projects = [
     id: 4,
     title: "NetworkBook",
     description: "A tool which helps computing professionals to manage networking contact information.",
-    img: "/p4_new.svg",
+    img: "/p4.svg",
     iconLists: ["/java.svg", "/gradle.svg"],
     link: "https://github.com/awhb/tp",
   },
