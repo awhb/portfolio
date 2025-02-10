@@ -7,8 +7,8 @@
 // ];
 
 export const navItems = [
-    { name: "As a developer", link: "/" },
-    { name: "As a creative", link: "/creative" },
+    { name: "As a Developer", link: "/" },
+    { name: "As a Creative", link: "/creative" },
   ];
 
 export const gridItems = [
