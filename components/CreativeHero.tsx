@@ -46,4 +46,4 @@ const CreativeHero = () => {
   )
 }
 
-export default CreativeHero
+export default CreativeHero;
