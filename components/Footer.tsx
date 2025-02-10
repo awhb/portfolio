@@ -12,8 +12,8 @@ const Footer = () => {
           What is <span className="text-purple">your</span> future vision?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Reach out to me today and let&apos;s discuss how we can help each other 
+          achieve our goals.
         </p>
         <a href="mailto:awhangbin@gmail.com">
           <MagicButton
