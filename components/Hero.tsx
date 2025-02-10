@@ -25,11 +25,11 @@ const Hero = () => {
 
                 <TextGenerateEffect 
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                words="ImaGENe our future."
+                words="Imagine Our Future."
                 />
 
                 <p className="text-center md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
-                    Hi! I&apos;m Hang Bin, a Singaporean student seeking to bridge human imagination and Generative AI 
+                    Hi! I&apos;m Hang Bin, a Singaporean student seeking to bridge human imagination and technology
                     to improve our lived experiences. 
                 </p>
                 <a href="#about">
