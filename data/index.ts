@@ -111,6 +111,12 @@ export const recommendations = [
     name: "Chris Ho",
     title: "AIIP Team Lead, AI Singapore",
     img: "/profile.svg",
+  },
+  {
+    quote: "What stands out about Hang Bin is his positive attitude and willingness to learn. He is always willing to go above and beyond to help take on tasks and support his team members. Believe this growth mindset will take him far and add value to future employers. All the best!",
+    name: "Julian Koo",
+    title: "Co-Founder, CareSense.ai",
+    img: "/profile.svg",
   }
 ];
 
