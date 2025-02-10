@@ -153,22 +153,40 @@ export const workExperience = [
   }
 ];
 
-export const creativeExperience = [
+export const creativeProjects = [
     {
       id: 1,
-      title: "Postcognito Pte. Ltd, Software Engineering Intern",
-      desc: "Prototyped free online tool to generate interactive and downloadable XmR charts using HTML, TailwindCSS and D3.js.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      title: "Art Style Classifier",
+      description: "A Gradio application deployed on Hugging Face that classifies by fine art styles using the fastai library.",
+      img: "/p1.svg",
+      iconLists: ["/huggingface.svg", "/gradio.svg"],
+      link: "https://github.com/awhb/art-classifier",
     },
     {
       id: 2,
-      title: "AI Singapore, AIIP Intern",
-      desc: "Designed solution for source attribution in Retrieval-Augmented Generation (RAG) system of LLM using semantic comparison.",
-      className: "md:col-span-2",
-      thumbnail: "/exp2.svg",
-    }
-];
+      title: "GitGOod Forum",
+      description: "A full-stack forum web application supporting JWT authentication and CRUD operations.",
+      img: "/p2.svg",
+      iconLists: ["/next.svg", "/re.svg", "/tail.svg", "/ts.svg", "/go.svg", "/postgres.svg", "/dock.svg"],
+      link: "https://github.com/awhb/gitgood-forum",
+    },
+    {
+      id: 3,
+      title: "Parallel uNivUSes",
+      description: "A choose-your-own adventure game to live iterations of first-year NUS student life.",
+      img: "/p3.svg",
+      iconLists: ["/c-sharp.svg", "/unity.svg"],
+      link: "https://github.com/awhb/parallel-univuses",
+    },
+    {
+      id: 4,
+      title: "NetworkBook",
+      description: "A tool which helps computing professionals to manage networking contact information.",
+      img: "/p4.svg",
+      iconLists: ["/java.svg", "/gradle.svg"],
+      link: "https://github.com/awhb/tp",
+    },
+  ];
 
 export const socialMedia = [
   {

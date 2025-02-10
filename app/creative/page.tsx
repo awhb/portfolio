@@ -1,9 +1,7 @@
-import Experience from "@/components/Experience";
+
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
 import CreativeHero from "@/components/CreativeHero";
-import RecentProjects from "@/components/RecentProjects";
-import Recommendations from "@/components/Recommendations";
+import CreativeProjects from "@/components/CreativeProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
 
@@ -13,7 +11,7 @@ export default function Home() {
         <div className="max-w-7xl w-full">
             <FloatingNav navItems={navItems}/>
             <CreativeHero />
-            <RecentProjects />
+            <CreativeProjects />
             <Footer />
         </div>
     </main>
