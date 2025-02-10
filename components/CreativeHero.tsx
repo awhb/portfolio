@@ -32,7 +32,7 @@ const CreativeHero = () => {
                     Hi! I&apos;m Hang Bin, a Singaporean student seeking to bridge human imagination and technology
                     to improve our lived experiences.
                 </p>
-                <p className="italic text-center md:tracking-wider mb-6 text-xs md:text-md lg:text-xl">Below details my journey into the Computational Arts!</p>
+                <p className="italic text-center md:tracking-wider mb-6 text-xs md:text-md lg:text-xl">Below details my foray into the Computational Arts!</p>
                 <a href="#creative-projects">
                     <MagicButton 
                     title="Show my work"
