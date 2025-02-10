@@ -5,7 +5,7 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const CreativeProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20" id="creative-projects">
       <h1 className="heading">
             A small selection of {" "}
             <span className="text-purple">recent projects</span>
