@@ -175,7 +175,7 @@ export const creativeProjects = [
     {
       id: 3,
       title: "Parallel uNivUSes",
-      description: "A choose-your-own adventure game to live iterations of first-year NUS student life.",
+      description: "A choose-your-own-adventure game to live iterations of first-year NUS student life.",
       img: "/p3.svg",
       video: "",
       tags: ['Unity', 'WebGL'],
