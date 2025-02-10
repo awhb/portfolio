@@ -161,7 +161,25 @@ export const workExperience = [
 
 export const creativeProjects = [
     {
-      id: 1,
+        id: 1,
+        title: "TouchDesigner Projects",
+        description: "Different TouchDesigner projects to help create immersive experiences, with one incorporating Unreal Engine.",
+        img: "",
+        video: "/unreal_example.mov",
+        tags: ['TouchDesigner', 'Unreal'],
+        link: "https://github.com/awhb/touchdesigner-projects",
+    },
+    {
+        id: 2,
+        title: "Shadertoy Shaders",
+        description: "Shaders on animation-related topics including transformations, projections and procedural animation.",
+        img: "",
+        video: "/shadertoy.mov",
+        tags: ['OpenGL'],
+        link: "https://www.shadertoy.com/user/aw_hb",
+    },
+    {
+      id: 3,
       title: "OpenProcessing Sketches",
       description: "Algorithmic P5.js sketches including alien landscapes and fern-like L-systems.",
       img: "/openProcessing.png",
@@ -170,31 +188,13 @@ export const creativeProjects = [
       link: "https://openprocessing.org/user/319099",
     },
     {
-      id: 2,
-      title: "Shadertoy Shaders",
-      description: "Shaders on animation-related topics including transformations, projections and procedural animation.",
-      img: "",
-      video: "/shadertoy.mov",
-      tags: ['OpenGL'],
-      link: "https://www.shadertoy.com/user/aw_hb",
-    },
-    {
-      id: 3,
+      id: 4,
       title: "Parallel uNivUSes",
       description: "A choose-your-own-adventure game to live iterations of first-year NUS student life.",
       img: "/p3.svg",
       video: "",
       tags: ['Unity', 'WebGL'],
       link: "https://starsia.itch.io/parallel-univus",
-    },
-    {
-      id: 4,
-      title: "TouchDesigner Projects",
-      description: "Different TouchDesigner projects to help create immersive experiences, with one incorporating Unreal Engine.",
-      img: "",
-      video: "/unreal_example.mov",
-      tags: ['TouchDesigner', 'Unreal'],
-      link: "https://github.com/awhb/touchdesigner-projects",
     },
   ];
 
