@@ -157,7 +157,7 @@ export const creativeProjects = [
     {
       id: 1,
       title: "OpenProcessing Sketches",
-      description: "Various algorithmic P5.js sketches including alien landscapes and fern-like L-systems.",
+      description: "Algorithmic P5.js sketches including alien landscapes and fern-like L-systems.",
       img: "/openProcessing.png",
       video: "",
       tags: ['P5.js'],
@@ -166,7 +166,7 @@ export const creativeProjects = [
     {
       id: 2,
       title: "Shadertoy Shaders",
-      description: "Multiple Shadertoy shaders on animation-related topics including transformations, projections and procedural animation.",
+      description: "Shaders on animation-related topics including transformations, projections and procedural animation.",
       img: "",
       video: "/shadertoy.mov",
       tags: ['OpenGL'],
