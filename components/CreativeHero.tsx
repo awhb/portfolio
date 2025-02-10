@@ -4,7 +4,7 @@ import { TextGenerateEffect } from './ui/TextGenerateEffects'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from "react-icons/fa";
 
-const Hero = () => {
+const CreativeHero = () => {
   return (
     <div className="pb-20 pt-36">
         <div>
@@ -46,4 +46,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default CreativeHero
