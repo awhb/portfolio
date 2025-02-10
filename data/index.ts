@@ -44,12 +44,12 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Building a Stable Diffusion library under FastAI course",
+    title: "Venturing into the Computational Arts",
     description: "Ongoing projects",
     className: "md:col-span-3",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "/exp4.svg",
     spareImg: "/grid.svg",
   },
   {
