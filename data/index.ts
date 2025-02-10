@@ -167,7 +167,7 @@ export const creativeProjects = [
       id: 2,
       title: "Shadertoy Shaders",
       description: "Multiple Shadertoy shaders on animation-related topics including transformations, projections and procedural animation.",
-      img: "/p2.svg",
+      img: "/shadertoy.mov",
       video: "",
       tags: ['OpenGL'],
       link: "https://www.shadertoy.com/user/aw_hb",
