@@ -143,7 +143,31 @@ export const workExperience = [
     desc: "Designed solution for source attribution in Retrieval-Augmented Generation (RAG) system of LLM using semantic comparison.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "CareSense.ai, Software Engineering Intern",
+    desc: "Developed key features of AI-powered health coaching app on React Native including secure voice calls with AI agents and tasks on 3-month user onboarding journey.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
   }
+];
+
+export const creativeExperience = [
+    {
+      id: 1,
+      title: "Postcognito Pte. Ltd, Software Engineering Intern",
+      desc: "Prototyped free online tool to generate interactive and downloadable XmR charts using HTML, TailwindCSS and D3.js.",
+      className: "md:col-span-2",
+      thumbnail: "/exp1.svg",
+    },
+    {
+      id: 2,
+      title: "AI Singapore, AIIP Intern",
+      desc: "Designed solution for source attribution in Retrieval-Augmented Generation (RAG) system of LLM using semantic comparison.",
+      className: "md:col-span-2",
+      thumbnail: "/exp2.svg",
+    }
 ];
 
 export const socialMedia = [
