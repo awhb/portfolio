@@ -29,7 +29,7 @@ const Hero = () => {
                 />
 
                 <p className="text-center md:tracking-wider mb-6 text-sm md:text-lg lg:text-2xl">
-                    Hi! I&apos;m Hang Bin, a Singaporean student seeking to bridge human imagination and technology 
+                    Hi! I&apos;m Hang Bin, a Singaporean student seeking to bridge human imagination and Generative AI 
                     to improve our lived experiences. 
                 </p>
                 <a href="#about">
