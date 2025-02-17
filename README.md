@@ -1,6 +1,8 @@
 # Hang Bin's Portfolio Website
 
-A personal portfolio website built with Next.js, React, Three.js and Framer Motion, deployed on Vercel.
+A personal portfolio website built with Next.js, React, Three.js and Framer Motion. 
+
+Currently hosted on [https://portfolio-awhbs-projects.vercel.app/](https://portfolio-awhbs-projects.vercel.app/). 
 
 ## Features 
 
