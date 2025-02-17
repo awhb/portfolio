@@ -71,7 +71,7 @@ export const projects = [
     description: "A Gradio application deployed on Hugging Face that classifies by fine art styles using the fastai library.",
     img: "/p1.svg",
     iconLists: ["/huggingface.svg", "/gradio.svg"],
-    link: "https://github.com/awhb/art-classifier",
+    link: "https://github.com/awhb/art-style-classifier",
   },
   {
     id: 2,
