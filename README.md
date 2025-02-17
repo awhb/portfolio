@@ -1,6 +1,6 @@
 # Hang Bin's Portfolio Website
 
-A personal portfolio website built with Next.js and React (along with TailwindCSS, Next.js and Framer Motion), deployed on Vercel.
+A personal portfolio website built with Next.js, React, Three.js and Framer Motion, deployed on Vercel.
 
 ## Features 
 
