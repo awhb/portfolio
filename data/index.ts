@@ -191,7 +191,7 @@ export const creativeProjects = [
       id: 4,
       title: "3D Stained Glass Design",
       description: "A 3D rendering through determining normal and height maps of a 2D stained glass design depicting a picturesque garden.",
-      img: "/3dstainedglass.png",
+      img: "/3dstainedglass_ss.png",
       video: "",
       tags: ['TouchDesigner'],
       link: "https://github.com/awhb/touchdesigner-projects/",
