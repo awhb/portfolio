@@ -167,7 +167,7 @@ export const creativeProjects = [
         img: "",
         video: "/RecolouredCarriage_rec.mov",
         tags: ['TouchDesigner', 'Unreal'],
-        link: "https://github.com/awhb/touchdesigner-projects/",
+        link: "https://github.com/awhb/touchdesigner-projects/RecolouredCarriage/",
     },
     {
         id: 2,
@@ -176,7 +176,7 @@ export const creativeProjects = [
         img: "",
         video: "/LavaRand_rec.mov",
         tags: ['TouchDesigner'],
-        link: "https://github.com/awhb/touchdesigner-projects/",
+        link: "https://github.com/awhb/touchdesigner-projects/LavaRand/",
     },
     {
       id: 3,
@@ -185,7 +185,7 @@ export const creativeProjects = [
       img: "",
       video: "/ButterflyEffect_rec.mov",
       tags: ['TouchDesigner'],
-      link: "https://github.com/awhb/touchdesigner-projects/",
+      link: "https://github.com/awhb/touchdesigner-projects/ButterflyEffect/",
     },
     {
       id: 4,
@@ -194,7 +194,7 @@ export const creativeProjects = [
       img: "/3dstainedglass_ss.png",
       video: "",
       tags: ['TouchDesigner'],
-      link: "https://github.com/awhb/touchdesigner-projects/",
+      link: "https://github.com/awhb/touchdesigner-projects/3DStainedGlass/",
     },
     {
       id: 5,
